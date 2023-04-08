@@ -41,3 +41,39 @@ header::after {
 	top: 0;
 	z-index: 2;
 }
+
+header nav {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99999;
+	top: 0;
+}
+
+header nav ul {
+	list-style-type: none;
+	display: flex;
+
+}
+
+header nav ul li {
+	padding: 15px 50px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	transition: .3s linear;
+}
+
+header nav ul li a:hover {
+	color: rgb(255, 255, 255, .7)
+}
+
+header nav ul li:nth-child(3) a {
+	font-size: 25px;
+}
