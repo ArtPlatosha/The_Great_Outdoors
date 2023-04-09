@@ -77,3 +77,67 @@ header nav ul li a:hover {
 header nav ul li:nth-child(3) a {
 	font-size: 25px;
 }
+
+header section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 99999;
+	color: #fff;
+}
+
+header section::before {
+	content: '';
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent, #000);
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+header section::after {
+	content: '';
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	background: linear-gradient(-90deg, transparent, #000);
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+header section h1 {
+	font-size: 45px;
+}
+
+header section p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+header section i {
+	font-size: 30px;
+	margin-top: 40px;
+	transition: .8s linear;
+	cursor: pointer;
+}
+
+header section i:hover {
+	transform: rotateX(360deg) rotate(360deg);
+}
+
+header video {
+	position: absolute;
+	width: 120%;
+	height: 110%;
+	left: -100px;
+	top: 0;
+	/* display: none;	 */
+}
