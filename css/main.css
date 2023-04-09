@@ -216,3 +216,37 @@ header video {
 	background-color: gray;
 	color: #fff;
 }
+
+.explore_bx:nth-child(3) .explore_cards .exp_card {
+	width: 330px;
+	height: auto;
+	text-decoration: none;
+}
+
+.explore_bx:nth-child(3) .explore_cards .exp_card:hover {
+	box-shadow: none;
+}
+
+.explore_bx:nth-child(3) .explore_cards .exp_card img {
+	height: 190px;
+}
+
+.explore_bx:nth-child(3) .explore_cards .exp_card .content {
+	position: relative;
+	margin-top: 10px;
+}
+
+.explore_bx:nth-child(3) .explore_cards .exp_card .content h6 {
+	color: rgb(255, 255, 255, .8);
+	font-size: 10px;
+}
+
+.explore_bx:nth-child(3) .explore_cards .exp_card .content h4 {
+	margin-top: 8px;
+}
+
+.explore_bx:nth-child(3) .explore_cards .exp_card .content p {
+	width: 90%;
+	font-size: 9px;
+	color: rgb(255, 255, 255, .7);
+}
